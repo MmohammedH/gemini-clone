@@ -10,9 +10,6 @@
 
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 
-// Load environment variables from .env file
-dotenv.config();
-
   const apiKey = "htndchfyhcfgrx";
   const genAI = new GoogleGenerativeAI(apiKey);
   
